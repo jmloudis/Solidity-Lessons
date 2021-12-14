@@ -1,4 +1,4 @@
-pragma solidity ^0.6.7;
+pragma solidity ^0.8.7;
 
 contract Lesson1 {
 
@@ -12,7 +12,7 @@ contract Lesson1 {
         name = newName;
 
     }
-    
+
     // same
 
     function getName() public view returns (string memory) {
@@ -21,8 +21,8 @@ contract Lesson1 {
 
     }
 
-    constructor() public {
-        name = "myName";
-    }
+    // constructor(abstract) public {
+    //     name = "myName";
+    // }
 
 }

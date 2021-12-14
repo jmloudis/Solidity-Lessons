@@ -6,26 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "getAge",
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -35,24 +33,56 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newAge",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setAge",
+				"name": "checkValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "loan",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "newName",
-						"type": "string"
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"name": "setName",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawel",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +101,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Lessons/Lesson2.sol": "Lesson1"
+			"Lessons/Lesson2-inheritance.sol": "Bank"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -85,12 +115,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Lessons/Lesson2.sol": {
-			"keccak256": "0x0ddc12b12d790b3ada2f77a872d4f9c6d48cf60a988d162f4f8c0854180737c5",
+		"Lessons/Lesson2-inheritance.sol": {
+			"keccak256": "0x428de520dd4e6293c88324c0963ea1b69c35f4d25188cdd1e92ce6516195dcf9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff1b27770e03b33c5c290c6083165a8d79e6fa7157fb953a91363a09231ed22d",
-				"dweb:/ipfs/Qmac1o8NJqE5TZpYwa1SUDLeRy4BJEV5KQwkQL9mPD1kpW"
+				"bzz-raw://258478ac58b3b2f9e2330a121f465bc6fd7e3cc8c4dd06b263b9c69644176946",
+				"dweb:/ipfs/QmXYSajnAW3CdQBXnWbhSh15wJJKYFRkiKmK3nw87WPVJ6"
 			]
 		}
 	},
