@@ -61,10 +61,10 @@
 	},
 	"sources": {
 		"Lessons/Lesson1.sol": {
-			"keccak256": "0xfea7f6285eb56ca6012bdc5534148aee25df0e03b428c4404b1899fae76842e8",
+			"keccak256": "0xb8f6d81de38811fb4b36ac0322f88cd025e8b28e04930040afc9feb583edf856",
 			"urls": [
-				"bzz-raw://9e7ebf3cc116940e59b0e571eb1ee0b624c2802aa211db2d4ad248b6241589e2",
-				"dweb:/ipfs/QmPBMPJGe7MKYRHP65r6o7rfR9CJ7LunWdEWVGWW5bBpuq"
+				"bzz-raw://f6bafcf3965305dd5294a15d2ce7598b5f49774f33eda5cd2097716487916bc4",
+				"dweb:/ipfs/QmYcaScrMqReLHArTLFEHcJe9WbjCaGthu9PA7tjVhQoTA"
 			]
 		}
 	},
