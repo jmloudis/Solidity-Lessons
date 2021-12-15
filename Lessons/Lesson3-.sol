@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 
+// Custom Modifiers and Error handling
+
 pragma solidity ^0.8.7;
 
 interface Regulator {
@@ -13,18 +15,28 @@ contract Bank is Regulator{
     // can only be called within the contract itself and any derived contracts.
     // ex. uint internal myInternalValue
 
+    // The address modifer means 
+
     uint private bankValue;
+    address private owner;
+
+    modifier ownerFunc {
+        require(owner == msg.sender);
+        _;
+
+    }
 
     constructor(uint amount) {
 
         bankValue = amount;
+        owner = msg.sender;
     }
 
-    function deposit(uint amount) public {
+    function deposit(uint amount) public ownerFunc {
         bankValue += amount;
     }
 
-    function withdrawel(uint amount) public {
+    function withdrawel(uint amount) public ownerFunc {
 
         if (checkValue(amount)){
              bankValue -= amount;
@@ -78,8 +90,22 @@ contract Lesson2 is Bank(10) {
     function getAge() public view returns (uint) {
         return age;
 
-    }
-
-    
+    }  
 
 }
+
+// contract testThrows {
+
+//     function testAssert() {
+
+//     }
+
+//     function testRequire() {
+
+//     }
+
+//     function Revert() {
+
+//     }
+
+// }
