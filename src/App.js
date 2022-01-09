@@ -1,25 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import { ethers } from 'ethers';
+import Greet from './components/NewGreet.js';
+import Tokens from './components/NewToken.js';
+import Votes from './components/Dapp.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="app-header">
+      <h3>dApp React</h3>
+        <div className="app_wrapper">
+            <Greet />
+            <Tokens />
+            <Votes />
+        </div>
       </header>
     </div>
   );
 }
+
 
 export default App;
