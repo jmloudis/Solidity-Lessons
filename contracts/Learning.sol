@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
 contract Learning {
 
     // State Varaibles - store data on the blockchain, must be outside function 
