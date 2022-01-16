@@ -4,8 +4,9 @@
 - Contracts - Open Source Solidity Contracts 
 
 # Advice
-- I would advice looking throguh the learning section to understand the syntax of solidity and get a feel for making contracts 
-- Then look through the lessons via @willitscale to understand how contracts are created, finally start making your own contracts!
+- I would advice looking through the learning section to understand solidity
+- Then look through the lessons via @willitscale to understand how contracts are created
+- Finally start making your own contracts!
 
 # Learning 
 - Smart Contract Programmer : https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA/videos
