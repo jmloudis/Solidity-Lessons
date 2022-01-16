@@ -1,15 +1,19 @@
 # Solidity Lessons
+- Lessons - willitscale/learning-solidity repo, updated with the newest version of solidity
+- Learning - Solidity teaching with Smart Contract Programmer via YouTube
+- Contracts - Open Source Solidity Contracts 
 
-- Updated willitscale/learning-solidity repo to work with newest version of solidity (0.8.7)
-- original Repo: https://github.com/willitscale/learning-solidity.git
-- original Repo Solidity Version: 0.4.0
+# Advice
+- I would advice looking throguh the learning section to understand the syntax of solidity and get a feel for making contracts 
+- Then look through the lessons via @willitscale to understand how contracts are created, finally start making your own contracts!
+
+# Learning 
+- Smart Contract Programmer : https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA/videos
+
+# Contracts
+- Random Open Source Contracts 
 
 # Lessons
-
-- Contain the lesson .sol files 
-
-# Videos
-
 - [Learning Solidity : Tutorial 1 The Basics](https://www.youtube.com/watch?v=v_hU0jPtLto)
 - [Learning Solidity : Tutorial 2 Inheritance](https://www.youtube.com/watch?v=6hkmLOtIq8A)
 - [Learning Solidity : Tutorial 3 Custom Modifiers and Error Handling](https://www.youtube.com/watch?v=3ObTNzDM3wI)
